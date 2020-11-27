@@ -18,9 +18,11 @@ export const theme = createMuiTheme({
         }
     },
     typography: {
-        fontSize: 18,
-        h4: {
-            fontWeight: 600
+        tab: {
+            fontFamily: 'Raleway',
+            fontWeigth: 700,
+            fontSize: "1rem",
+            textTransform: "none"
         }
     }
 });
