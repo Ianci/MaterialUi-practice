@@ -11,10 +11,13 @@ function App() {
         <HeaderPage />
         <Switch>
               <Route exact path="/" component={Home} / >
-              <Route  path="/services" component={Home} / >
-              <Route  path="/revolution" component={Home} / >
-              <Route  path="/about" component={Home} / >
-              <Route  path="/contact" component={Home} / >
+              <Route path="/services" component={Home} / >
+              <Route path="/revolution" component={Home} / >
+              <Route path="/about" component={Home} / >
+              <Route path="/contact" component={Home} / >
+              <Route path="/customsoftware" component={Home} / >
+              <Route path="/mobileapp" component={Home} / >
+              <Route path="/websitedev" component={Home} / >
               <Redirect to="/" />
         </Switch>
 
