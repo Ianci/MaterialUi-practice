@@ -18,6 +18,7 @@ function App() {
               <Route path="/customsoftware" component={Home} / >
               <Route path="/mobileapp" component={Home} / >
               <Route path="/websitedev" component={Home} / >
+              <Route path="/estimate" component={Home} / >
               <Redirect to="/" />
         </Switch>
 
